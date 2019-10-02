@@ -1,0 +1,67 @@
+#Task 1: Basic tasks
+
+ ls
+contest of a directory appear
+ls command gives a list of contents in a directory
+
+pwd
+A directory
+pwd goes to the current directory
+
+mkdir workspace 
+cd workspace
+
+ls workspace
+
+touch README.md 
+
+cp README.md CHANGELOG.md/
+
+#Task 2: Absolute and relative tasks
+
+touch exercise.md
+mv exercise.md /tmp
+cd /tmp
+rm exercise.md
+
+#Task 3: cat commands
+
+touch umuzi.md recruits.md cohort.md
+
+nano umuzi.md
+nano recruits.md
+nano cohort.md
+
+cat umuzi.md recruits.md cohort.md
+
+cat umuzi.md recruits.md cohort.md > summary.md
+
+nano summary.md
+
+#Task 4:The locate command
+
+locate umuzi
+locate umuzi > search_result.md
+
+#Task 5: The locate command cont..
+
+cd documents
+touch pad.md
+cd ~/Desktop
+mkdir work
+cp ~/Documents/pad.md Desktop/work/pad_copy.md
+locate updatedb.
+cd ..
+locate pad_copy.md
+
+#Task 6
+find / -name "*.pdf"
+find / -name "*.pdf" >> search_result.md
+ls -l -t
+
+#Task 7
+
+nano my_bio.md
+write something on text editor and save
+mkdir my_files
+mv my_bio.md  my_files/
